@@ -1,16 +1,14 @@
 /*Path-To-Success name*/
-
-:root{
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+:root{  
 --Teal:#4CA7C0;
---Purple: #484FB7;
---Lavender: #6B8FE7;
---Yellow: #E9BB57; 
+--Purple:#484FB7;
+--Lavender:#6B8FE7;
+--Yellow:#E9BB57; 
 --Pink:#D9526F;
 --Dark-gray:#1E1E1E; 
---White:#ffffff; 
-
---fonts: "Kavoon", "Inter", sans-serif;
+--White:#ffffff;
+--fonts:"Kavoon","Inter",sans-serif;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -89,11 +87,11 @@ nav{
     height: auto;
     width: 450px;
     align-content: center;
-    align-items: left;
+    align-items: start;
     
 }
 nav h2{
-    resize: 1.5em;
+    font-size: 1.5em;
     text-align: left;
     font-style: italic;
 }
@@ -104,7 +102,7 @@ nav a{
     font-weight: bold;
 }
 h1{
-  resize: 3em;
+  font-size: 3em;
   text-align: center;  
 }
 #Intro > p{
@@ -142,7 +140,7 @@ text-align: center;
     grid-template-columns: auto auto;
 }
 h2{
-    resize: 2em;
+    font-size: 2em;
     text-align: left;
     padding-left: 0.5em;
 
@@ -185,13 +183,13 @@ padding:1em;
 
 }
 h3{
-    resize: 1.5em;
+    font-size: 1.5em;
     text-align:left;
     padding-left: 0.5em;
     color:var(--Yellow);
 }
 h4{
-    resize: 1.15em;
+    font-size: 1.15em;
     color:var(--Purple);
 }
 footer{
