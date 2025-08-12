@@ -1,4 +1,5 @@
 /*Path-To-Success name*/
+/*imported fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 :root{  
 --Teal:#4CA7C0;
@@ -60,6 +61,7 @@ table {
 	border-spacing: 0;
 }
 */
+/*rest of css*/
 h1,h2{
     font-family: var(--fonts);
     color:var(--White);
@@ -207,9 +209,11 @@ footer a{
     color:var(--White);
     align-content: center;
 }
+/*root variables*/
 *{
     align-items:center;
 }
+/*global styles*/
 @media (max-width:450px){
     main{
     max-width: 450px;
