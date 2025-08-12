@@ -71,9 +71,11 @@ main, footer{
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    font-family: var(--fonts);
     background-color:var(--Lavender);
     padding-left:1em;
+}
+h3,h4,p,table,footer,li,a{
+    font-family: "inter";
 }
 #Intro{
     background-color:var(--Purple);
@@ -91,7 +93,7 @@ nav{
     
 }
 nav h2{
-    size: 1.5em;
+    resize: 1.5em;
     text-align: left;
     font-style: italic;
 }
@@ -99,10 +101,10 @@ nav a{
     background-color: var(--White);
     color:var(--Lavender);
     text-decoration: none;
-    font-style: bold;
+    font-weight: bold;
 }
 h1{
-  size: 3em;
+  resize: 3em;
   text-align: center;  
 }
 #Intro > p{
@@ -140,7 +142,7 @@ text-align: center;
     grid-template-columns: auto auto;
 }
 h2{
-    size: 2em;
+    resize: 2em;
     text-align: left;
     padding-left: 0.5em;
 
@@ -183,13 +185,13 @@ padding:1em;
 
 }
 h3{
-    size: 1.5em;
+    resize: 1.5em;
     text-align:left;
     padding-left: 0.5em;
     color:var(--Yellow);
 }
 h4{
-    size: 1.15em;
+    resize: 1.15em;
     color:var(--Purple);
 }
 footer{
@@ -201,13 +203,14 @@ footer{
     flex-direction: row;
     justify-content: space-evenly;
     align-content: center;
+    align-items: center;
 }
 footer a{
     color:var(--White);
     align-content: center;
 }
 *{
-    left: 175px;
+    align-items:center;
 }
 @media (max-width:450px){
     main{
