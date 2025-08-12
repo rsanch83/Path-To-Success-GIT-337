@@ -1,0 +1,219 @@
+/*Path-To-Success name*/
+
+:root{
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+--Teal:#4CA7C0;
+--Purple: #484FB7;
+--Lavender: #6B8FE7;
+--Yellow: #E9BB57; 
+--Pink:#D9526F;
+--Dark-gray:#1E1E1E; 
+--White:#ffffff; 
+
+--fonts: "Kavoon", "Inter", sans-serif;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+h1,h2{
+    font-family: var(--fonts);
+    color:var(--White);
+}
+main, footer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-family: var(--fonts);
+    background-color:var(--Lavender);
+    padding-left:1em;
+}
+#Intro{
+    background-color:var(--Purple);
+    color: var(--White);
+    height:auto;
+    width: 450px;
+}
+nav{
+    background-color:var(--Yellow);
+    color: var(--Dark-gray);
+    height: auto;
+    width: 450px;
+    align-content: center;
+    align-items: left;
+    
+}
+nav h2{
+    size: 1.5em;
+    text-align: left;
+    font-style: italic;
+}
+nav a{
+    background-color: var(--White);
+    color:var(--Lavender);
+    text-decoration: none;
+    font-style: bold;
+}
+h1{
+  size: 3em;
+  text-align: center;  
+}
+#Intro > p{
+font-style: Italic;
+text-align: center;
+}
+#Services{
+    background-color:var(--Purple);
+    height: auto;
+    width: 450px;
+    
+    
+}
+#Services div{
+    background-color:var(--White);
+    align-content: center;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    border: solid var(--Purple) 3px;
+}
+#Services div > img{
+    height:100px;
+    width:100px;
+}
+#Why{
+    background-color:var(--Pink);
+    height: auto;
+    width: 450px;
+    
+}
+#Why ul{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+h2{
+    size: 2em;
+    text-align: left;
+    padding-left: 0.5em;
+
+}
+#Prices{
+    background-color:var(--Purple);
+    height: auto;
+    width: 450px;
+}
+#Prices table{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: var(--Yellow);
+    border: solid 2px var(--Yellow);
+    padding: 1em;
+    margin: 1em 2.5em;
+    width: 350px;
+    justify-content: center;
+    
+}
+#Prices table td{
+background-color:var(--White);
+padding:1em;
+}
+
+#Step{
+    background-color:var(--Pink);
+    color: var(--White);
+    height: auto;
+    width: 450px;
+
+}
+#Step h2, p{
+    padding: 0 0.5em 0 0.5em;
+}
+#Step button{
+    display: flex;
+    justify-content: center;
+    margin-left: 0.5em;
+
+}
+h3{
+    size: 1.5em;
+    text-align:left;
+    padding-left: 0.5em;
+    color:var(--Yellow);
+}
+h4{
+    size: 1.15em;
+    color:var(--Purple);
+}
+footer{
+    background-color: var(--Purple);
+    color:var(--White);
+    height: auto;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+footer a{
+    color:var(--White);
+    align-content: center;
+}
+*{
+    left: 175px;
+}
+@media (max-width:450px){
+    main{
+    max-width: 450px;
+    }
+    footer{
+    max-width: 450px;
+    }
+}
